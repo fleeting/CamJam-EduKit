@@ -52,3 +52,8 @@ while True:
 	print " "
 
 	time.sleep(1)
+	
+except KeyboardInterrupt:
+	print "Quitting..."
+
+	GPIO.cleanup()
